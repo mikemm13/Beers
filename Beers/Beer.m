@@ -14,7 +14,7 @@
 - (void)printBeerInfo{
     NSLog(@"Name: %@", name);
     NSLog(@"Color: %@", color);
-    NSLog(@"Alcohol: %d", alcohol);
+    NSLog(@"Alcohol: %d", grade);
 }
 
 - (void)printBeerInfoWithHeader:(NSString *)header{
