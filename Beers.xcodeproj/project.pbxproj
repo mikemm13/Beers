@@ -19,6 +19,7 @@
 		49D4F802193CD030007F278C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D4F7EA193CD030007F278C /* UIKit.framework */; };
 		49D4F80A193CD030007F278C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49D4F808193CD030007F278C /* InfoPlist.strings */; };
 		49D4F80C193CD030007F278C /* BeersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D4F80B193CD030007F278C /* BeersTests.m */; };
+		49D4F817193CD20F007F278C /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D4F816193CD20F007F278C /* Beer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		49D4F807193CD030007F278C /* BeersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeersTests-Info.plist"; sourceTree = "<group>"; };
 		49D4F809193CD030007F278C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49D4F80B193CD030007F278C /* BeersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeersTests.m; sourceTree = "<group>"; };
+		49D4F815193CD20F007F278C /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		49D4F816193CD20F007F278C /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				49D4F7F5193CD030007F278C /* AppDelegate.h */,
 				49D4F7F6193CD030007F278C /* AppDelegate.m */,
+				49D4F815193CD20F007F278C /* Beer.h */,
+				49D4F816193CD20F007F278C /* Beer.m */,
 				49D4F7F8193CD030007F278C /* Images.xcassets */,
 				49D4F7ED193CD030007F278C /* Supporting Files */,
 			);
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D4F817193CD20F007F278C /* Beer.m in Sources */,
 				49D4F7F7193CD030007F278C /* AppDelegate.m in Sources */,
 				49D4F7F3193CD030007F278C /* main.m in Sources */,
 			);
