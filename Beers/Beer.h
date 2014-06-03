@@ -15,6 +15,16 @@
     NSUInteger grade;
 }
 
+- (NSString *)name;
+- (void)setName:(NSString *)newName;
+- (NSString *)color;
+- (void)setColor:(NSString *)newColor;
+- (NSUInteger)grade;
+- (void)setGrade:(NSUInteger)newGrade;
+
+@property (nonatomic, strong) NSString *country;
+
+
 - (void)printBeerInfo;
 - (void)printBeerInfoWithHeader:(NSString *)header;
 - (void)printBeerInfoWithHeader:(NSString *)header andFooter:(NSString *)footer;

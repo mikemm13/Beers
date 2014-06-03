@@ -10,6 +10,35 @@
 
 @implementation Beer
 
+@synthesize country = _country;
+- (NSString *)name{
+    return self->name;
+}
+- (void)setName:(NSString *)newName{
+    self->name = newName;
+}
+- (NSString *)color{
+    return self->color;
+}
+- (void)setColor:(NSString *)newColor{
+    self->color = newColor;
+}
+- (NSUInteger)grade{
+    return self->grade;
+}
+- (void)setGrade:(NSUInteger)newGrade{
+    self->grade = newGrade;
+}
+
+- (NSString *)country{
+    return _country;
+}
+
+- (void)setCountry:(NSString *)country{
+    self->_country = country;
+}
+
+
 
 - (void)printBeerInfo{
     NSLog(@"Name: %@", name);

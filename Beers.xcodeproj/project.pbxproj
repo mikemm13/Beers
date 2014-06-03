@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4921B918193DC393008433B5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B917193DC393008433B5 /* Person.m */; };
+		4921B95A193DEA6C008433B5 /* EuroConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B959193DEA6C008433B5 /* EuroConverter.m */; };
+		4921B95C193E047B008433B5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4921B95B193E047B008433B5 /* Storyboard.storyboard */; };
+		4921B95F193E0B8A008433B5 /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B95E193E0B8A008433B5 /* EuroCalculatorViewController.m */; };
+		4921B962193E0CAC008433B5 /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B961193E0CAC008433B5 /* EuroConverterViewController.m */; };
 		49D4F7E7193CD030007F278C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D4F7E6193CD030007F278C /* Foundation.framework */; };
 		49D4F7E9193CD030007F278C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D4F7E8193CD030007F278C /* CoreGraphics.framework */; };
 		49D4F7EB193CD030007F278C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D4F7EA193CD030007F278C /* UIKit.framework */; };
@@ -33,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4921B916193DC393008433B5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4921B917193DC393008433B5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		4921B958193DEA6C008433B5 /* EuroConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverter.h; sourceTree = "<group>"; };
+		4921B959193DEA6C008433B5 /* EuroConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverter.m; sourceTree = "<group>"; };
+		4921B95B193E047B008433B5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		4921B95D193E0B8A008433B5 /* EuroCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroCalculatorViewController.h; sourceTree = "<group>"; };
+		4921B95E193E0B8A008433B5 /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
+		4921B960193E0CAC008433B5 /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
+		4921B961193E0CAC008433B5 /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
 		49D4F7E3193CD030007F278C /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D4F7E6193CD030007F278C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49D4F7E8193CD030007F278C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +91,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4921B919193DC47A008433B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49D4F815193CD20F007F278C /* Beer.h */,
+				49D4F816193CD20F007F278C /* Beer.m */,
+				4921B916193DC393008433B5 /* Person.h */,
+				4921B917193DC393008433B5 /* Person.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		49D4F7DA193CD030007F278C = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +137,14 @@
 			children = (
 				49D4F7F5193CD030007F278C /* AppDelegate.h */,
 				49D4F7F6193CD030007F278C /* AppDelegate.m */,
-				49D4F815193CD20F007F278C /* Beer.h */,
-				49D4F816193CD20F007F278C /* Beer.m */,
+				4921B958193DEA6C008433B5 /* EuroConverter.h */,
+				4921B959193DEA6C008433B5 /* EuroConverter.m */,
+				4921B95B193E047B008433B5 /* Storyboard.storyboard */,
+				4921B960193E0CAC008433B5 /* EuroConverterViewController.h */,
+				4921B961193E0CAC008433B5 /* EuroConverterViewController.m */,
+				4921B95D193E0B8A008433B5 /* EuroCalculatorViewController.h */,
+				4921B95E193E0B8A008433B5 /* EuroCalculatorViewController.m */,
+				4921B919193DC47A008433B5 /* Model */,
 				49D4F7F8193CD030007F278C /* Images.xcassets */,
 				49D4F7ED193CD030007F278C /* Supporting Files */,
 			);
@@ -226,6 +257,7 @@
 			files = (
 				49D4F7F1193CD030007F278C /* InfoPlist.strings in Resources */,
 				49D4F7F9193CD030007F278C /* Images.xcassets in Resources */,
+				4921B95C193E047B008433B5 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D4F817193CD20F007F278C /* Beer.m in Sources */,
+				4921B95F193E0B8A008433B5 /* EuroCalculatorViewController.m in Sources */,
+				4921B962193E0CAC008433B5 /* EuroConverterViewController.m in Sources */,
 				49D4F7F7193CD030007F278C /* AppDelegate.m in Sources */,
+				4921B918193DC393008433B5 /* Person.m in Sources */,
+				4921B95A193DEA6C008433B5 /* EuroConverter.m in Sources */,
 				49D4F7F3193CD030007F278C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +479,7 @@
 				49D4F811193CD030007F278C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49D4F812193CD030007F278C /* Build configuration list for PBXNativeTarget "BeersTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +488,7 @@
 				49D4F814193CD030007F278C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
