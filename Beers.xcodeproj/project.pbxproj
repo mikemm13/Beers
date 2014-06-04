@@ -12,6 +12,9 @@
 		4921B95C193E047B008433B5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4921B95B193E047B008433B5 /* Storyboard.storyboard */; };
 		4921B95F193E0B8A008433B5 /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B95E193E0B8A008433B5 /* EuroCalculatorViewController.m */; };
 		4921B962193E0CAC008433B5 /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B961193E0CAC008433B5 /* EuroConverterViewController.m */; };
+		4921B965193E25DC008433B5 /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921B964193E25DC008433B5 /* AlphaViewController.m */; };
+		4921B968193E29B1008433B5 /* fondo_hd_169_fringe_manzana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4921B967193E29B1008433B5 /* fondo_hd_169_fringe_manzana.jpg */; };
+		4921B96A193E2C4C008433B5 /* 18482076b4ee86abbdd6d39cfd2cbf2dc363a0a2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4921B969193E2C4C008433B5 /* 18482076b4ee86abbdd6d39cfd2cbf2dc363a0a2.jpg */; };
 		49D4F7E7193CD030007F278C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D4F7E6193CD030007F278C /* Foundation.framework */; };
 		49D4F7E9193CD030007F278C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D4F7E8193CD030007F278C /* CoreGraphics.framework */; };
 		49D4F7EB193CD030007F278C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D4F7EA193CD030007F278C /* UIKit.framework */; };
@@ -47,6 +50,10 @@
 		4921B95E193E0B8A008433B5 /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
 		4921B960193E0CAC008433B5 /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
 		4921B961193E0CAC008433B5 /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
+		4921B963193E25DC008433B5 /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
+		4921B964193E25DC008433B5 /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
+		4921B967193E29B1008433B5 /* fondo_hd_169_fringe_manzana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo_hd_169_fringe_manzana.jpg; sourceTree = "<group>"; };
+		4921B969193E2C4C008433B5 /* 18482076b4ee86abbdd6d39cfd2cbf2dc363a0a2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18482076b4ee86abbdd6d39cfd2cbf2dc363a0a2.jpg; sourceTree = "<group>"; };
 		49D4F7E3193CD030007F278C /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D4F7E6193CD030007F278C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49D4F7E8193CD030007F278C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,15 +98,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49203EDD193F037700462AC8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4921B967193E29B1008433B5 /* fondo_hd_169_fringe_manzana.jpg */,
+				4921B969193E2C4C008433B5 /* 18482076b4ee86abbdd6d39cfd2cbf2dc363a0a2.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		49203EDE193F038900462AC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4921B95B193E047B008433B5 /* Storyboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		4921B919193DC47A008433B5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4921B958193DEA6C008433B5 /* EuroConverter.h */,
+				4921B959193DEA6C008433B5 /* EuroConverter.m */,
 				49D4F815193CD20F007F278C /* Beer.h */,
 				49D4F816193CD20F007F278C /* Beer.m */,
 				4921B916193DC393008433B5 /* Person.h */,
 				4921B917193DC393008433B5 /* Person.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		4921B966193E2835008433B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4921B963193E25DC008433B5 /* AlphaViewController.h */,
+				4921B964193E25DC008433B5 /* AlphaViewController.m */,
+				4921B960193E0CAC008433B5 /* EuroConverterViewController.h */,
+				4921B961193E0CAC008433B5 /* EuroConverterViewController.m */,
+				4921B95D193E0B8A008433B5 /* EuroCalculatorViewController.h */,
+				4921B95E193E0B8A008433B5 /* EuroCalculatorViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		49D4F7DA193CD030007F278C = {
@@ -135,15 +174,11 @@
 		49D4F7EC193CD030007F278C /* Beers */ = {
 			isa = PBXGroup;
 			children = (
+				49203EDD193F037700462AC8 /* Assets */,
 				49D4F7F5193CD030007F278C /* AppDelegate.h */,
 				49D4F7F6193CD030007F278C /* AppDelegate.m */,
-				4921B958193DEA6C008433B5 /* EuroConverter.h */,
-				4921B959193DEA6C008433B5 /* EuroConverter.m */,
-				4921B95B193E047B008433B5 /* Storyboard.storyboard */,
-				4921B960193E0CAC008433B5 /* EuroConverterViewController.h */,
-				4921B961193E0CAC008433B5 /* EuroConverterViewController.m */,
-				4921B95D193E0B8A008433B5 /* EuroCalculatorViewController.h */,
-				4921B95E193E0B8A008433B5 /* EuroCalculatorViewController.m */,
+				49203EDE193F038900462AC8 /* View */,
+				4921B966193E2835008433B5 /* Controller */,
 				4921B919193DC47A008433B5 /* Model */,
 				49D4F7F8193CD030007F278C /* Images.xcassets */,
 				49D4F7ED193CD030007F278C /* Supporting Files */,
@@ -256,8 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D4F7F1193CD030007F278C /* InfoPlist.strings in Resources */,
+				4921B968193E29B1008433B5 /* fondo_hd_169_fringe_manzana.jpg in Resources */,
 				49D4F7F9193CD030007F278C /* Images.xcassets in Resources */,
 				4921B95C193E047B008433B5 /* Storyboard.storyboard in Resources */,
+				4921B96A193E2C4C008433B5 /* 18482076b4ee86abbdd6d39cfd2cbf2dc363a0a2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +318,7 @@
 				4921B962193E0CAC008433B5 /* EuroConverterViewController.m in Sources */,
 				49D4F7F7193CD030007F278C /* AppDelegate.m in Sources */,
 				4921B918193DC393008433B5 /* Person.m in Sources */,
+				4921B965193E25DC008433B5 /* AlphaViewController.m in Sources */,
 				4921B95A193DEA6C008433B5 /* EuroConverter.m in Sources */,
 				49D4F7F3193CD030007F278C /* main.m in Sources */,
 			);
