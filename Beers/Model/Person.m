@@ -23,7 +23,7 @@
 
 #pragma mark - Inits
 - (id)init{
-    self = [self initWithName:@"John Doe" andAddress:nil andAge:22];
+    self = [self initWithName:@"John Doe" andAddress:nil andAge:18];
     return self;
 }
 
